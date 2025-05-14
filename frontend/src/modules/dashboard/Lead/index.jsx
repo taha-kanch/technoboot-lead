@@ -179,7 +179,7 @@ const Lead = () => {
                     </LocalizationProvider>
                 </Grid> */}
 
-                <Grid item xs={12} sm={6} md={3}>
+                {/* <Grid item xs={12} sm={6} md={3}>
                     <TextField
                         fullWidth
                         label="From Date"
@@ -199,7 +199,7 @@ const Lead = () => {
                         value={filters.toDate || ''}
                         onChange={(e) => setFilters(prev => ({ ...prev, toDate: e.target.value, page: 0 }))}
                     />
-                </Grid>
+                </Grid> */}
 
                 <Grid item xs={12} sm={6} md={3} style={{ display: 'flex', alignItems: 'center' }}>
                     <Button
